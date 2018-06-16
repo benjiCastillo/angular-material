@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Hola! Soy un modal</h1>
+<div mat-dialog-content>
+  <p>Esto es un contenido</p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>
+</div>
